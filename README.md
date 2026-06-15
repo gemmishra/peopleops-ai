@@ -28,7 +28,7 @@ PeopleOps AI/
 |-- client/                 React and Vite application
 |-- server/                 Express and MongoDB API
 |-- sample-data/            Demo payroll CSV
-|-- docs/                   API, architecture, demo, and interview guides
+|-- docs/                   API, architecture, and demo documentation
 |-- .env.example
 `-- package.json
 ```
@@ -175,7 +175,7 @@ The server seeds one admin from `ADMIN_NAME`, `ADMIN_EMAIL`, and `ADMIN_PASSWORD
 6. Generate an optional Gemini review on batch details and point out its safety boundary.
 7. Open **Audit Logs** to review sanitized system activity.
 
-See [Demo Script](docs/DEMO_SCRIPT.md) for three-minute and seven-minute interview demos.
+See [Demo Script](docs/DEMO_SCRIPT.md) for three-minute and seven-minute guided demo walkthroughs.
 
 ## API Documentation
 
@@ -233,12 +233,11 @@ Backend tests cover calculation and rounding, validation, duplicates, risk rules
 - Cloud deployment, observability, and CI/CD
 - Read-only OpenClaw or agent integration through existing summary and risk APIs
 
-## Interview Resources
+## Documentation
 
 - [Architecture](docs/ARCHITECTURE.md)
 - [API Reference](docs/API.md)
 - [Demo Script](docs/DEMO_SCRIPT.md)
-- [Interview Pitch and Questions](docs/INTERVIEW_PITCH.md)
 
 ## License
 
