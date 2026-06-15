@@ -239,3 +239,7 @@ Backend tests cover calculation and rounding, validation, duplicates, risk rules
 - [API Reference](docs/API.md)
 - [Demo Script](docs/DEMO_SCRIPT.md)
 - [Interview Pitch and Questions](docs/INTERVIEW_PITCH.md)
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
