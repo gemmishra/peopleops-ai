@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build and coverage output
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Runtime files
+logs/
+*.log
+uploads/
+
+# Tool caches
+.vite/
+.eslintcache
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,16 @@
+employeeId,employeeName,department,annualSalary,payFrequency,bonus,preTaxDeductions,taxWithheld,postTaxDeductions,payPeriodStart,payPeriodEnd
+EMP-1001,Avery Morgan,Engineering,108000,monthly,500,350,2100,150,2026-05-01,2026-05-31
+EMP-1002,Jordan Lee,HR,72000,monthly,250,200,1350,100,2026-05-01,2026-05-31
+EMP-1003,Samira Patel,Finance,96000,monthly,2100,2200,1750,200,2026-05-01,2026-05-31
+EMP-1004,Diego Ramirez,Sales,84000,monthly,1800,2300,1500,100,2026-05-01,2026-05-31
+EMP-1005,Taylor Chen,Operations,78000,monthly,1500,1900,1400,100,2026-05-01,2026-05-31
+EMP-1006,Morgan Brooks,Engineering,120000,monthly,0,400,2400,200,2026-05-01,2026-05-31
+EMP-1007,Priya Shah,HR,68000,monthly,0,250,1250,100,2026-05-01,2026-05-31
+EMP-1008,Noah Williams,Finance,132000,monthly,0,5000,6000,500,2026-05-01,2026-05-31
+EMP-1009,Elena Garcia,Sales,90000,monthly,0,4200,3800,300,2026-05-01,2026-05-31
+EMP-1010,Chris Johnson,Operations,76000,biweekly,0,200,600,75,2026-05-18,2026-05-31
+EMP-1011,Fatima Khan,Engineering,115000,semimonthly,300,250,1000,100,2026-05-16,2026-05-31
+EMP-1012,Liam Anderson,Sales,88000,weekly,100,75,350,50,2026-05-25,2026-05-31
+EMP-1013,Sophia Martinez,Finance,102000,monthly,0,300,2000,125,2026-05-01,2026-05-31
+EMP-1014,Invalid Salary,HR,-50000,monthly,0,100,500,50,2026-05-01,2026-05-31
+EMP-1015,Invalid Period,Operations,70000,monthly,0,100,1000,50,2026-05-31,2026-05-01
