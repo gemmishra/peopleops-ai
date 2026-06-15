@@ -28,7 +28,7 @@ PeopleOps AI/
 |-- client/                 React and Vite application
 |-- server/                 Express and MongoDB API
 |-- sample-data/            Demo payroll CSV
-|-- docs/                   API, architecture, and demo documentation
+|-- docs/                   API and architecture documentation
 |-- .env.example
 `-- package.json
 ```
@@ -110,7 +110,7 @@ Valid rows are processed even when other rows fail:
 - `completed_with_errors`: valid and invalid rows are present
 - `failed`: no rows are valid or the file cannot be processed
 
-Demo files are available at `sample-data/payroll-sample.csv` and through the UI at `/sample-payroll.csv`.
+Sample files are available at `sample-data/payroll-sample.csv` and through the UI at `/sample-payroll.csv`.
 
 ## Setup
 
@@ -165,17 +165,15 @@ Open `http://localhost:5173`. The API health endpoint is `http://localhost:5000/
 
 The server seeds one admin from `ADMIN_NAME`, `ADMIN_EMAIL`, and `ADMIN_PASSWORD` when that email does not already exist. Log in with the credentials configured in `.env`. There is no registration page or public registration endpoint.
 
-## Demo Workflow
+## Usage Workflow
 
 1. Log in with the seeded HR-admin account.
 2. Open **Upload Payroll** and select the sample CSV.
 3. Review valid rows, invalid rows, risk counts, and validation errors.
 4. Open **Dashboard** for KPIs, summaries, recommendations, recent batches, and charts.
 5. Open **Payroll Batches**, select the upload, and inspect employee calculations and risk flags.
-6. Generate an optional Gemini review on batch details and point out its safety boundary.
+6. Generate an optional Gemini review of the stored batch results.
 7. Open **Audit Logs** to review sanitized system activity.
-
-See [Demo Script](docs/DEMO_SCRIPT.md) for three-minute and seven-minute guided demo walkthroughs.
 
 ## API Documentation
 
@@ -219,7 +217,7 @@ Backend tests cover calculation and rounding, validation, duplicates, risk rules
 - Salaried payroll only
 - No editable payroll records
 - Gemini is limited to an on-demand, read-only HR review of stored facts
-- No chatbot or OpenClaw integration
+- No chatbot integration
 - No AI calculation, mutation, approval, legal advice, or tax advice
 - No asynchronous job queue or production deployment automation
 
@@ -231,13 +229,11 @@ Backend tests cover calculation and rounding, validation, duplicates, risk rules
 - More pay types, jurisdictional rules, and configurable risk policies
 - Automated frontend component and end-to-end tests
 - Cloud deployment, observability, and CI/CD
-- Read-only OpenClaw or agent integration through existing summary and risk APIs
 
 ## Documentation
 
 - [Architecture](docs/ARCHITECTURE.md)
 - [API Reference](docs/API.md)
-- [Demo Script](docs/DEMO_SCRIPT.md)
 
 ## License
 

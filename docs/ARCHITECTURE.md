@@ -151,6 +151,6 @@ The UI never calculates payroll. It formats and presents backend-owned values.
 
 ## Future Read-Only Agent Integration
 
-The latest summary, latest high-risk, and employee-risk endpoints remain a future read surface for an OpenClaw or chat-based agent. A future integration should authenticate as a constrained read-only principal, cite stored batch IDs and risk flags, avoid direct database access, and never calculate, edit, or approve payroll.
+The latest summary, latest high-risk, and employee-risk endpoints provide a controlled read surface for future integrations. Any integration should authenticate as a constrained read-only principal, cite stored batch IDs and risk flags, avoid direct database access, and never calculate, edit, or approve payroll.
 
-No OpenClaw or chatbot integration exists in the current MVP. Gemini is limited to the explicit, on-demand payroll review endpoint.
+No chatbot integration exists in the current MVP. Gemini is limited to the explicit, on-demand payroll review endpoint.

@@ -108,7 +108,7 @@ Employee objects include deterministic pay results and explainable risk flags.
 
 ## Future-Agent Read Endpoints
 
-These are ordinary JWT-protected read APIs. They do not connect to OpenClaw in the MVP.
+These are ordinary JWT-protected read APIs designed for safe access to stored payroll summaries and risk results.
 
 ### `GET /payroll/batches/latest/summary`
 
